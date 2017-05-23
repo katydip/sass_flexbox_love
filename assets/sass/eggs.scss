@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Hind');
+
+
+$header_font: 'Hind', sans-serif;
+$p_font: 'Droid Serif', serif;
+$page-bg-color: #fff;
+$page-text-color: #fff;
+
+$color-1: lightcoral;
+$color-2: lightgreen;
+$color-3: lightskyblue;
+$color-4: plum;
+$color-5: MEDIUMTURQUOISE;
+$color-6: lightpink;
+$color-7: KHAKI;
+$color-8: CORNFLOWERBLUE;
+
+
+@import "normalize";
+@import "header";
+@import "methods";
+@import "footer";
+@import "responsive";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  line-height: 150%;
+  position: relative;
+}

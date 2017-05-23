@@ -1,0 +1,74 @@
+#methods {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  flex-wrap: wrap;
+
+  .method {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    // position: relative;
+
+img {
+  width: 60%;
+}
+
+.description {
+  text-align: center;
+  padding: 20px;
+  margin-left: 9%;
+  margin-right: 9%;
+
+h2 {
+  font-family: $header_font;
+  font-size: 28px;
+}
+p {
+  font-family: $p_font;
+  font-size: 16px;
+  font-style: italic;
+  padding: 15px;
+
+  // margin: 15px;
+}
+  }
+
+  }
+}
+#hard-boiled {
+  display: flex;
+  background-color: $color-1;
+}
+#soft-boiled {
+  display: flex;
+  background-color: $color-2;
+}
+#sunny {
+  display: flex;
+  background-color: $color-3;
+}
+#poached {
+  display: flex;
+  background-color: $color-4;
+}
+#over-easy {
+  display: flex;
+  background-color: $color-5;
+}
+#over-hard {
+  display: flex;
+  background-color: $color-6;
+}
+#scrambled {
+  display: flex;
+  background-color: $color-7;
+}
+#omelette {
+  display: flex;
+  background-color: $color-8;
+}

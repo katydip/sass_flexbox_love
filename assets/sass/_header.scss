@@ -1,0 +1,19 @@
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: $page-bg-color;
+
+  h1 {
+    font-family: $header_font;
+    color: $color-1;
+    font-size: 32px;
+  }
+  p {
+    font-family: $p_font;
+    color: lightgray;
+    font-size: 18px;
+  }
+}
